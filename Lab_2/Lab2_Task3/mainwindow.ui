@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1243</width>
+    <height>756</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="table">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>1031</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="defaultDropAction">
+     <enum>Qt::IgnoreAction</enum>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>выражение</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>польская запись</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>a</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>b</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>c</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>d</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>e</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>результат</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>a/(b-c)*(d+e)</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>8.6</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>2.4</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>5.1</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>0.3</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>7.9</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>(a+b)*(c-d)/e</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>7.4</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>3.6</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>2.8</string>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string>9.5</string>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string>0.9</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>a-(b+c*d)/e</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>3.1</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>5.4</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>0.2</string>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string>9.6</string>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string>7.8</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>a/b-((c+d)*e)</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>1.2</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>0.7</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>9.3</string>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string>6.5</string>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string>8.4</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>a*(b-c+d)/e</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>9.7</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>8.2</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>3.6</string>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string>4.1</string>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string>0.5</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>(a+b)*(c-d)/e</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>0.8</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>4.1</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>7.9</string>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string>6.2</string>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string>3.5</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>a*(b-c)/(d+e)</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>1.6</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>4.9</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>5.7</string>
+     </property>
+    </item>
+    <item row="6" column="5">
+     <property name="text">
+      <string>0.8</string>
+     </property>
+    </item>
+    <item row="6" column="6">
+     <property name="text">
+      <string>2.3</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>a/(b*(c+d))-e</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>8.5</string>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string>0.3</string>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string>2.4</string>
+     </property>
+    </item>
+    <item row="7" column="5">
+     <property name="text">
+      <string>7.9</string>
+     </property>
+    </item>
+    <item row="7" column="6">
+     <property name="text">
+      <string>1.6</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>(a+(b/c-d))*e</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>5.6</string>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string>7.4</string>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string>8.9</string>
+     </property>
+    </item>
+    <item row="8" column="5">
+     <property name="text">
+      <string>3.1</string>
+     </property>
+    </item>
+    <item row="8" column="6">
+     <property name="text">
+      <string>0.2</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>a*(b+c)/(d-e)</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>0.4</string>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string>2.3</string>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string>6.7</string>
+     </property>
+    </item>
+    <item row="9" column="5">
+     <property name="text">
+      <string>5.8</string>
+     </property>
+    </item>
+    <item row="9" column="6">
+     <property name="text">
+      <string>9.1</string>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string>a-(b/c*(d+e))</string>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string>5.6</string>
+     </property>
+    </item>
+    <item row="10" column="3">
+     <property name="text">
+      <string>3.2</string>
+     </property>
+    </item>
+    <item row="10" column="4">
+     <property name="text">
+      <string>0.9</string>
+     </property>
+    </item>
+    <item row="10" column="5">
+     <property name="text">
+      <string>1.7</string>
+     </property>
+    </item>
+    <item row="10" column="6">
+     <property name="text">
+      <string>4.8</string>
+     </property>
+    </item>
+    <item row="11" column="0">
+     <property name="text">
+      <string>(a-b)/(c+d)*e</string>
+     </property>
+    </item>
+    <item row="11" column="2">
+     <property name="text">
+      <string>0.3</string>
+     </property>
+    </item>
+    <item row="11" column="3">
+     <property name="text">
+      <string>6.7</string>
+     </property>
+    </item>
+    <item row="11" column="4">
+     <property name="text">
+      <string>8.4</string>
+     </property>
+    </item>
+    <item row="11" column="5">
+     <property name="text">
+      <string>9.5</string>
+     </property>
+    </item>
+    <item row="11" column="6">
+     <property name="text">
+      <string>1.2</string>
+     </property>
+    </item>
+    <item row="12" column="0">
+     <property name="text">
+      <string>a/(b+c-d*e)</string>
+     </property>
+    </item>
+    <item row="12" column="2">
+     <property name="text">
+      <string>7.6</string>
+     </property>
+    </item>
+    <item row="12" column="3">
+     <property name="text">
+      <string>4.8</string>
+     </property>
+    </item>
+    <item row="12" column="4">
+     <property name="text">
+      <string>3.5</string>
+     </property>
+    </item>
+    <item row="12" column="5">
+     <property name="text">
+      <string>9.1</string>
+     </property>
+    </item>
+    <item row="12" column="6">
+     <property name="text">
+      <string>0.2</string>
+     </property>
+    </item>
+    <item row="13" column="0">
+     <property name="text">
+      <string>a*(b-c)/(d+e)</string>
+     </property>
+    </item>
+    <item row="13" column="2">
+     <property name="text">
+      <string>0.5</string>
+     </property>
+    </item>
+    <item row="13" column="3">
+     <property name="text">
+      <string>6.1</string>
+     </property>
+    </item>
+    <item row="13" column="4">
+     <property name="text">
+      <string>8.9</string>
+     </property>
+    </item>
+    <item row="13" column="5">
+     <property name="text">
+      <string>2.4</string>
+     </property>
+    </item>
+    <item row="13" column="6">
+     <property name="text">
+      <string>7.3</string>
+     </property>
+    </item>
+    <item row="14" column="0">
+     <property name="text">
+      <string>(a+b*c)/(d-e)</string>
+     </property>
+    </item>
+    <item row="14" column="2">
+     <property name="text">
+      <string>9.1</string>
+     </property>
+    </item>
+    <item row="14" column="3">
+     <property name="text">
+      <string>0.6</string>
+     </property>
+    </item>
+    <item row="14" column="4">
+     <property name="text">
+      <string>2.4</string>
+     </property>
+    </item>
+    <item row="14" column="5">
+     <property name="text">
+      <string>3.7</string>
+     </property>
+    </item>
+    <item row="14" column="6">
+     <property name="text">
+      <string>8.5</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>631</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="valueButton">
+       <property name="minimumSize">
+        <size>
+         <width>131</width>
+         <height>29</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>131</width>
+         <height>29</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Результат</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="expr_get">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>620</y>
+      <width>351</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="a_get">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>620</y>
+      <width>67</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>10000000000000000000.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>620</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>a:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>660</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>b:</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="b_get">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>660</y>
+      <width>67</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>10000000000000000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="c_get">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>620</y>
+      <width>67</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>10000000000000000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>620</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>c:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>660</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>d:</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="d_get">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>660</y>
+      <width>67</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>10000000000000000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="e_get">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>620</y>
+      <width>67</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-9999999999999.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>10000000000000000000.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>620</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>e:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_expr">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>660</y>
+      <width>171</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>171</width>
+      <height>29</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>171</width>
+      <height>29</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>Добавить выражение</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1243</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
