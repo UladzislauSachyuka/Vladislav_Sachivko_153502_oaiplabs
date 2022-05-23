@@ -1,0 +1,24 @@
+void MainWindow::on_funcButton_clicked()
+{
+    QList<std::string> funcName;
+
+    std::regex reg("((\\w+)\\s+[\\*]*(\\w*::)?\\s*((([\\w]+)\\((\\s*[\\w]*\\s*[\\*]*\\s*\\w+\\s*\\,?\\s*){0,}\\))))\\s*\\{");
+
+    std::smatch res;
+
+    std::string str = ui->plainTextEdit->toPlainText().toStdString();
+
+    while(std::regex_search(str, res, reg))
+    {
+        funcName.push_back(StdTostr(res[1].str()));
+
+        str = res.suffix();
+    }
+
+    ui->outPlainText->clear();
+
+    for(int i = 0; i < funcName.size(); i++)
+    {
+        ui->outPlainText->appendPlainText(strToQStr(funcName[i]) + ";");
+    }
+}
